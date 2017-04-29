@@ -6,10 +6,10 @@ require_once ("login.php");
 
 # creo la variabile delle chiavi di accesso a twitter //QUI PASSO LE CHIAVI---------------------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 $settings = array(
-    'oauth_access_token' => "846290143904514048-JXtMnGtE03Xw9o0x1XApjuPZLpxnJAa",
-    'oauth_access_token_secret' => "USKFCPTjZOF4AsCAK5kS98mvKlebkiaxbnKAAg7UnnXAP",
-    'consumer_key' => "DC0sePOBbQ8bYdC8r4Smg",
-    'consumer_secret' => "q0dwXac1zOyW4ZYdVN8aXjBH8JQHTi0hsO8mkNM5mWdR2yt2ku"
+    'oauth_access_token' => "**************************************",
+    'oauth_access_token_secret' => "****************************************",
+    'consumer_key' => "**********************************",
+    'consumer_secret' => "********************************************"
 );
 
 
