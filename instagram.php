@@ -33,7 +33,7 @@ if (!empty($_POST["centerLat"])) {
 
 
     // Definisco l'url e poi faccio la chiamata alle API di Instagram con i parametri ricevuti  -------------QUI PASSO ACCESS TOKEN DI ISTAGRAM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    $url = 'https://api.instagram.com/v1/media/search?lat=' . $lat . '&lng=' . $lng . '&distance=' . $distance . '&access_token=2909919418.16bfc37.17ae1c8d0be64e80982269fa5976f331&count=100';  //QUI PASSO ACCESS TOKEN (senza &count=100)
+    $url = 'https://api.instagram.com/v1/media/search?lat=' . $lat . '&lng=' . $lng . '&distance=' . $distance . '&access_token=******************************&count=100';  //QUI PASSO ACCESS TOKEN (senza &count=100)
 
     $jsonData = json_decode((file_get_contents($url)));
 
